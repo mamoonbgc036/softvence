@@ -2,23 +2,6 @@
 
 A modern web application built with Laravel and Vue.js (or replace with your actual tech stack).
 
-## 🚀 Features
-
-- User authentication
-- Role-based access control
-- Dynamic content management
-- RESTful API integration
-- Responsive UI with Bootstrap/Vue
-
-## 🛠️ Tech Stack
-
-- PHP (Laravel)
-- Vue.js (or Blade / Livewire)
-- MySQL
-- Bootstrap / Tailwind CSS
-- REST API
-- Git & GitHub
-
 ## 📦 Installation & Setup
 
 Follow the steps below to get the project running locally.
@@ -27,4 +10,11 @@ Follow the steps below to get the project running locally.
 
 ```bash
 git clone https://github.com/mamoonbgc036/softvence.git
-cd softvence
+
+### 2. Install Dependency
+
+```bash
+Run Composer Install in the terminal
+
+### 2. Browse The Project
+now browse the project by hitting http://127.0.0.1:8000/
