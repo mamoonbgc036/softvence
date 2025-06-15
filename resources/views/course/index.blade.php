@@ -15,6 +15,12 @@
 
 <body class="bg-light p-4">
     <div class="container">
+        @if (session('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
         <h2 class="mb-4">Add Multiple Coures and Modules</h2>
 
         @if($errors->any())
@@ -89,7 +95,11 @@
     <script>
         $(document).ready(function() {
 
-            let contentIndex = {{old('courses') ? count(old('courses')) : 1}};
+            let contentIndex = {
+                {
+                    old('courses') ? count(old('courses')) : 1
+                }
+            };
 
             // Add Content
             $('#addContentBtn').click(function() {
