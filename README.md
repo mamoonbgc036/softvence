@@ -16,5 +16,10 @@ git clone https://github.com/mamoonbgc036/softvence.git
 ```bash
 Run Composer Install in the terminal
 
-### 2. Browse The Project
+### 3. Key Generate
+
+```bash
+Run php artisan key:generate in the terminal
+
+### 4. Browse The Project
 now browse the project by hitting http://127.0.0.1:8000/
