@@ -14,12 +14,12 @@ Run Composer Install in the terminal
 ### 3. Key Generate
 Run "php artisan key:generate" in the terminal
 
-### 3. cp .env.example .env
+### 4. cp .env.example .env
 put created db credentials in .env file 
 
-### 3. Ready Database
+### 5. Ready Database
 Run "php artisan migrate" in the terminal
 
-### 4. Browse The Project
+### 6. Browse The Project
 run "php artisan serve"
 now browse the project by hitting http://127.0.0.1:8000/
